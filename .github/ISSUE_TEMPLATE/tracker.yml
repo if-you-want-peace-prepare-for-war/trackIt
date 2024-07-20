@@ -1,17 +1,17 @@
 name: Tracker
-description: Suggest new or changes to existing public torrent tracker
+description: Suggest a new or update a existing public torrent tracker
 projects:
   - if-you-want-peace-prepare-for-war/trackIt
 assignees:
   - spirillen
-title: Open tracker list change
+title: Tracker Domain only
 labels:
   - 'Public Tracker'
 body:
   - type: markdown
     attributes:
       value: |
-        Thank you for giving you time and interest in helping this project to keep a relevant source for the community.
+        Thank you for giving you time and interest, to keep this project a relevant source, for the community.
 
   - type: input
     id: uri
@@ -28,7 +28,7 @@ body:
     attributes:
       label: Comment for change
       description: Please write why you wont this change to the open tracker list
-      value: |
+      placeholder: |
         1. This is a public tracker
         2. This tracker is on a privacy & worksafe network
         3. I've found a privacy rule for this tracker.
