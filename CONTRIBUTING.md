@@ -10,6 +10,8 @@ commit:
    Cloudflare, Amazon, Microsoft, Alphabet (Google)
 3. The open torrent tracker is at the best of your knowledge respecting human fundamental right to privacy and freedom.
 4. The open torrent tracker do not require any kind of registration, this includes registration of the torrent itself
+5. If there already is a issue with The open torrent tracker, you will reuse that, even if closed
+   5.1. **ONLY** one issue per domain 
 
 -------------------
 
