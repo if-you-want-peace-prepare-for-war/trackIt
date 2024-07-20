@@ -1,5 +1,7 @@
 # TrackIt
 
+[![My Privacy DNS](.assets/icons/logo.png)](https://www.mypdns.org/)
+
 TrackIt is the latest variant in torrent tracker list, which is to be a handcrafted project equally to
 [My Privacy DNS][MpDNS]'s [Matrix][Matrix] project.
 
@@ -26,16 +28,19 @@ By building this alternative list and only using a handcrafted list, we can perf
 2. Better ensure to keep privacy respecting sources
 
 
+## Sponsors
+
+[![ko-fi](.assets/icons/ko-fi.png)](https://ko-fi.com/X8X37FUGU)
+[![liberapay](https://mypdns.org/fileproxy/?name=sp_receives_spirillen)](https://liberapay.com/spirillen/donate)
+[![goal](https://mypdns.org/fileproxy/?name=sp_goal_spirillen)](https://liberapay.com/spirillen/donate)
+
+
+- Jetbrains, Provided free licence to any members, who have been working more than 3 month for My Privacy DNS open
+  source project https://www.jetbrains.com/community/opensource/.
 
 
 
-
-
-
-
-
-
-[//]: # (Link index, sort by appearance)
+[//]: # Link index, sort by appearance
 
 [MpDNS]: https://www.mypdns.org/ "My Privacy DNS, Let no one track you online"
 

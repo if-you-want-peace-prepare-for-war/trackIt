@@ -1,0 +1,53 @@
+name: Tracker
+description: Suggest a new or update a existing public torrent tracker
+projects:
+  - if-you-want-peace-prepare-for-war/trackIt
+assignees:
+  - spirillen
+title: Tracker Domain only
+labels:
+  - 'Public Tracker'
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for giving you time and interest, to keep this project a relevant source, for the community.
+
+  - type: input
+    id: uri
+    attributes:
+      label: Full URI string to tracker
+      description: full address as `protocol[://]URI[:]port/path`
+      placeholder: |
+          http://hpdl360g8-1.matrix.lan:6969/announce
+    validations:
+      required: true
+
+  - type: textarea
+    id: comment
+    attributes:
+      label: Comment for change
+      description: Please write why you wont this change to the open tracker list
+      placeholder: |
+        1. This is a public tracker
+        2. This tracker is on a privacy & worksafe network
+        3. I've found a privacy rule for this tracker.
+
+      render: Markdown
+    validations:
+      required: true
+
+  - type: checkboxes
+    attributes:
+      label: 'I do confirm that:'
+      description: |
+        'By not being compliant with the following, you accept you can/will be banned from this project'
+      options:
+        - label: There are no other related issues regarding this domain
+          required: true
+        - label: This committed tracker have been online and active for at least one month
+          required: true
+        - label: This commit is on a safe network
+          required: false
+        - label: I have read and understood the rules for contributing new trackers and updating existing open tracker.
+          required: false
