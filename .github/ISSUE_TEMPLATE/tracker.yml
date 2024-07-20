@@ -48,5 +48,5 @@ body:
           required: true
         - label: This commit is on a safe network
           required: true
-        - label: I have read and understood the rules for [contributing](CONTRIBUTING.md) new trackers and updating existing open tracker.
+        - label: I have read and understood the rules for [contributing](https://github.com/if-you-want-peace-prepare-for-war/trackIt/blob/master/CONTRIBUTING.md) new trackers and updating existing open tracker.
           required: true
