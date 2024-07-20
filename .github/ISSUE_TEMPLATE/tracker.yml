@@ -18,7 +18,7 @@ body:
       label: Full URI string to tracker
       description: full address as `protocol[://]URI[:]port/path`
       placeholder: |
-          http://hpdl360g8-1.matrix.lan:6969/announce
+        http://hpdl360g8-1.matrix.lan:6969/announce
     validations:
       required: true
 
@@ -35,6 +35,33 @@ body:
       render: Markdown
     validations:
       required: true
+
+  - type: dropdown
+    id: software
+    attributes:
+      label: Software
+      description: Software used for tested this tracker
+      multiple: true
+      options:
+        - BiglyBT
+        - Bitcomet
+        - BitLord
+        - Bitport
+        - BitTorent
+        - bt-torrent
+        - Deluge
+        - Frostwire
+        - Halite
+        - KTorrent
+        - popcorn Time
+        - qBittorent
+        - qBittorent Enhanced Edition
+        - Tixati
+        - Torch Browser
+        - Transmission (qt-Transmission, Transmission-bt)
+        - uTorrent
+        - Vuze
+        - WebTorrent
 
   - type: checkboxes
     attributes:
