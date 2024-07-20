@@ -1,0 +1,34 @@
+name: Translation
+description: Commit translation
+projects:
+  - if-you-want-peace-prepare-for-war/trackIt
+title: Translation of text
+labels:
+  - 'translation,documentation'
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for giving you time and interest, to keep this project a relevant source, for the community.
+        We appreciate your time and effort in helping translating.
+        Make sure you have read our [Contribution guidelines](/CONTRIBUTING.md)
+
+  - type: textarea
+    attributes:
+      label: About the translation
+      description: Write a bit about the translation to help understand what you have done.
+      placeholder: |
+        I have translated the part about how to use this project in qBittorrent Enhanced Edition...
+
+      render: Markdown
+    validations:
+      required: true
+
+  - type: checkboxes
+    attributes:
+      label: 'I do confirm:'
+      description: |
+        'By not being compliant with the following, you accept you can be banned from this project'
+      options:
+        - label: I have read and understood the rules for [contributing](CONTRIBUTING.md) new trackers and updating existing open tracker.
+          required: true
