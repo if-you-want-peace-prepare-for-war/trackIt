@@ -36,6 +36,39 @@ body:
     validations:
       required: true
 
+  - type: textarea
+    id: network
+    attributes:
+      label: Network data (Ip/Network)
+      description: The network proof. Please post entire drill/dig ANSWER SECTION
+      placeholder: |
+        drill tracker.ipv6tracker.org @9.9.9.9
+        ;; ANSWER SECTION:
+        tracker.ipv6tracker.org.        60      IN      A       34.89.51.235
+        tracker.ipv6tracker.org.        60      IN      A       34.94.76.146
+        tracker.ipv6tracker.org.        60      IN      A       35.227.59.57
+
+  - type: textarea
+    id: whois
+    attributes:
+      label: whois
+      description: Whois data on network from above
+      placeholder: |
+        whois -H 34.94.76.146
+        NetRange:       34.64.0.0 - 34.127.255.255
+        CIDR:           34.64.0.0/10
+        NetName:        GOOGL-2
+        NetHandle:      NET-34-64-0-0-1
+        Parent:         NET34 (NET-34-0-0-0-0)
+        NetType:        Direct Allocation
+        OriginAS:
+        Organization:   Google LLC (GOOGL-2)
+        RegDate:        2018-09-28
+        Updated:        2018-09-28
+        Ref:            https://rdap.arin.net/registry/ip/34.64.0.0
+
+        ...
+
   - type: dropdown
     id: software
     attributes:
