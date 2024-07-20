@@ -28,6 +28,15 @@ By building this alternative list and only using a handcrafted list, we can perf
 2. Better ensure to keep privacy respecting sources
 
 
+## Download
+
+You can download the list from one of these sources, whereof My Privacy DNS is the only one where you download privately.
+
+We will over time be working on a release of some documentation, for how to commit these open tracker to your bit-torrent client.
+
+1. [My Privacy DNS][My Privacy DNS] (Preferred for privacy)
+2. [GitHub User content][GHT] (Preferred for traffic on external hosted servers)
+
 ## Sponsors
 
 [![ko-fi](.assets/icons/ko-fi.png)](https://ko-fi.com/X8X37FUGU)
@@ -47,3 +56,7 @@ By building this alternative list and only using a handcrafted list, we can perf
 [Matrix]: https://github.com/mypdns/matrix "My Privacy DNS handcrafted blacklists"
 
 [qEE]: https://github.com/c0re100/qBittorrent-Enhanced-Edition "qBittorrent Enhanced Edition"
+
+[My Privacy DNS]: https://www.mypdns.org/trackit/trackers.txt "Best in online Privacy"
+
+[GHT]: https://raw.githubusercontent.com/if-you-want-peace-prepare-for-war/trackIt/master/trackers.txt
