@@ -40,7 +40,7 @@ By building this alternative list and only using a handcrafted list, we can perf
 
 
 
-[//]: # Link index, sort by appearance
+[//]: # (Link index, sort by appearance)
 
 [MpDNS]: https://www.mypdns.org/ "My Privacy DNS, Let no one track you online"
 
