@@ -17,7 +17,7 @@
 
 [//]: # (By not being compliant with the following, you accept you can be banned from this project)
 
-- [ ]: There are no other related issues regarding this domain
-- [ ]: This committed tracker have been online and active for at least one month
-- [ ]: This commit is on a safe network
-- [ ]: I have read and understood the rules for [contributing](../../CONTRIBUTING.md) new trackers and updating existing open tracker.
+ - [ ] There are no other related issues regarding this domain
+ - [ ] This committed tracker have been online and active for at least one month
+ - [ ] This commit is on a safe network
+ - [ ] I have read and understood the rules for [contributing](../../CONTRIBUTING.md) new trackers and updating existing open tracker.
