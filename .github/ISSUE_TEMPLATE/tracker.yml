@@ -32,7 +32,6 @@ body:
         2. This tracker is on a privacy & worksafe network
         3. I've found a privacy rule for this tracker.
 
-      render: Markdown
     validations:
       required: true
 
@@ -47,7 +46,9 @@ body:
         tracker.ipv6tracker.org.        60      IN      A       34.89.51.235
         tracker.ipv6tracker.org.        60      IN      A       34.94.76.146
         tracker.ipv6tracker.org.        60      IN      A       35.227.59.57
-
+    validations:
+      required: true
+      
   - type: textarea
     id: whois
     attributes:
@@ -68,6 +69,9 @@ body:
         Ref:            https://rdap.arin.net/registry/ip/34.64.0.0
 
         ...
+
+    validations:
+      required: true
 
   - type: dropdown
     id: software
@@ -95,6 +99,7 @@ body:
         - uTorrent
         - Vuze
         - WebTorrent
+        - Other (Please right which in comment section above)
 
   - type: checkboxes
     attributes:
