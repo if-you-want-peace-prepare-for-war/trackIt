@@ -8,4 +8,6 @@ udp://open.stealth.si:80/announce
 
 udp://tracker.0x7c0.com:6969/announce
 
+udp://tracker.cyberia.is:6969/announce
+
 udp://tracker.torrent.eu.org:451/announce
