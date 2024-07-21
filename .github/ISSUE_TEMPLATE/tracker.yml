@@ -2,7 +2,6 @@ name: Tracker
 description: Suggest a new or update a existing public torrent tracker
 projects:
   - if-you-want-peace-prepare-for-war/trackIt
-title: Tracker Domain only
 labels:
   - 'Public Tracker'
 body:
@@ -48,7 +47,7 @@ body:
         tracker.ipv6tracker.org.        60      IN      A       35.227.59.57
     validations:
       required: true
-      
+
   - type: textarea
     id: whois
     attributes:
