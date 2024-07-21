@@ -1,6 +1,6 @@
 # TrackIt
 
-[![My Privacy DNS](.assets/icons/logo.png)](https://www.mypdns.org/)
+[![My Privacy DNS. Let no spy on you online](.assets/icons/logo.png)](https://www.mypdns.org/)
 
 TrackIt is the latest variant in torrent tracker list, which is to be a handcrafted project equally to
 [My Privacy DNS][MpDNS]'s [Matrix][Matrix] project.
