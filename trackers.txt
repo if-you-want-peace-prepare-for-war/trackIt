@@ -11,3 +11,5 @@ udp://tracker.0x7c0.com:6969/announce
 udp://tracker.cyberia.is:6969/announce
 
 udp://tracker.torrent.eu.org:451/announce
+
+udp://tracker.dler.org:6969/announce
