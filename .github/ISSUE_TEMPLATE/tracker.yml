@@ -28,9 +28,10 @@ body:
       description: Please write why you wont this change to the open tracker list
       placeholder: |
         1. This is a public tracker
-        2. This tracker is on a privacy & worksafe network
+        2. This tracker is on a privacy & work safe network
         3. I've found a privacy rule for this tracker.
 
+      render: Markdown
     validations:
       required: true
 
@@ -45,7 +46,7 @@ body:
         tracker.ipv6tracker.org.        60      IN      A       34.89.51.235
         tracker.ipv6tracker.org.        60      IN      A       34.94.76.146
         tracker.ipv6tracker.org.        60      IN      A       35.227.59.57
-      render: bash
+      render: bash session
     validations:
       required: true
 
@@ -70,7 +71,7 @@ body:
 
         ...
 
-      render: bash
+      render: bash session
     validations:
       required: true
 
