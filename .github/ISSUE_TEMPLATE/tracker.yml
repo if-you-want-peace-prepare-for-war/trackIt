@@ -45,6 +45,7 @@ body:
         tracker.ipv6tracker.org.        60      IN      A       34.89.51.235
         tracker.ipv6tracker.org.        60      IN      A       34.94.76.146
         tracker.ipv6tracker.org.        60      IN      A       35.227.59.57
+      render: bash
     validations:
       required: true
 
@@ -69,6 +70,7 @@ body:
 
         ...
 
+      render: bash
     validations:
       required: true
 
