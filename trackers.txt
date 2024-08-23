@@ -27,5 +27,3 @@ udp://martin-gebhardt.eu:25/announce
 udp://tracker.fnix.net:6969/announce
 
 udp://public.tracker.vraphim.com:6969/announce
-
-udp://tamas3.ynh.fr:6969/announce
