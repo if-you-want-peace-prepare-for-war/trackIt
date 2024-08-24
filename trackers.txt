@@ -20,8 +20,6 @@ udp://bt2.archive.org:6969/announce
 
 udp://epider.me:6969/announce
 
-#### TESTING ####
-
 udp://martin-gebhardt.eu:25/announce
 
 udp://tracker.fnix.net:6969/announce
