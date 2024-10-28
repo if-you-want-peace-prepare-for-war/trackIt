@@ -10,10 +10,6 @@ udp://tracker.0x7c0.com:6969/announce
 
 udp://tracker.torrent.eu.org:451/announce
 
-udp://bt1.archive.org:6969/announce
-
-udp://bt2.archive.org:6969/announce
-
 udp://martin-gebhardt.eu:25/announce
 
 udp://tracker.fnix.net:6969/announce
