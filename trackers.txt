@@ -1,5 +1,3 @@
-http://ns3109441.mypdns.org:6969/announce
-
 udp://exodus.desync.com:6969/announce
 
 udp://open.stealth.si:80/announce
