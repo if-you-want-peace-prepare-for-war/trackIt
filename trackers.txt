@@ -1,5 +1,3 @@
-udp://exodus.desync.com:6969/announce
-
 udp://open.stealth.si:80/announce
 
 udp://tracker.torrent.eu.org:451/announce
