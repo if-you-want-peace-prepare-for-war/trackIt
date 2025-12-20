@@ -5,3 +5,7 @@ udp://tracker.torrent.eu.org:451/announce
 udp://martin-gebhardt.eu:25/announce
 
 udp://tracker.fnix.net:6969/announce
+
+http://ns3197353.mypdns.org:6969/announce
+
+udp://p4p.arenabg.com:1337
